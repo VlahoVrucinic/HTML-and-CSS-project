@@ -1,0 +1,387 @@
+html , body {
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+}
+
+/*slike */
+
+#ovcar {
+	padding-left:650px;
+	font-size:60px;
+}
+
+#ovcar1 {
+	border-radius:30%;
+	height:350px;
+}
+
+#ovcar2 {
+	border-radius:50%;
+	height:400px;
+}
+
+#ovcar3 {
+	border-radius:45%;
+}
+
+/* linkovi */
+
+
+
+.link:link {
+	color:blue;
+}
+
+.link:visited{
+	color:purple;
+}
+
+
+
+/* glavni meni */
+
+.menu {
+	border:5px solid black;
+}
+
+.menu ul {
+	list-style-type:none;
+	position:relative;
+	padding:0px;
+	margin:0px;
+}
+
+.menu ul li {
+	float:left;
+}
+
+
+.menu ul:after {
+	content:" ";
+	display:block;
+	height:0px;
+	width:100%;
+	line-height:0;
+	clear:both;
+}
+	
+.menu ul li a {
+	text-decoration:none;
+	padding:10px;
+	margin-left:150px;
+	margin-right:90px;
+}	
+
+.menu ul li:hover {
+	background:pink;
+}
+
+.menu ul li a:hover {
+	color:brown;
+}
+
+
+/* meni sa strane */
+
+.menu2 {
+	position:relative;
+	left:1600px;
+	top:-300px;
+	display:table;
+	border:5px solid brown;
+	background:sienna;
+}
+
+.menu2 ul li a{
+	text-decoration:none;
+}
+
+
+
+
+
+#text {
+	font-family:cursive;
+}
+
+/* video */
+
+.video {
+	position:relative;
+	left:500px;
+}
+
+
+/* pozadina */
+
+.body {
+	background-repeat:no repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* O pasmini */
+
+.povratak {
+	position:relative;
+	left:50px;
+	top:-40px;
+}
+
+#link1 {
+	text-decoration:none;
+}
+
+/*naslovi */
+
+#naslov {
+	position:relative;
+	left:700px;
+	font-size:60px;
+	font-family:impact;
+}
+
+.content {
+	position:relative;
+	border:5px solid brown;
+	display:table;
+	left:20px;
+	background:sienna;
+	}
+
+
+#naslov1 {
+	position:relative;
+	top:50px;
+	left:0px;
+	font-family:cursive;
+	}
+
+#naslov2 {
+	font-family:cursive;
+}
+
+#naslov3 {
+	font-family:cursive;
+}
+	
+#naslov4 {
+	font-family:cursive;
+}
+	
+	
+	
+/* tekstovi */
+
+p {
+	font-family:Helvetica;
+	font-size:15px;
+}
+
+#povijest2 {
+	font-family:Helvetica;
+	font-size:15px;
+}
+
+
+/* Slike */
+
+#ovcar5 {
+	height:550px;
+	position:relative;
+	left:450px;
+}
+
+#pasmina1 {
+	height:300px;
+	position:relative;
+	left:450px;
+}
+
+#pasmina2 {
+	height:350px;
+	position:relative;
+	left:450px;
+}
+
+#pasmina3 {
+	position:relative;
+	left:450px;
+}
+
+#pasmina4 {
+	height:350px;
+	position:relative;
+	left:450px;
+}
+
+#video2 {
+	position:relative;
+	left:500px;
+}
+
+
+
+
+
+/* Gdje kupiti */
+
+#naslov5 {
+	position:relative;
+	left:700px;
+	font-size:60px;
+	font-family:impact;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Galerija */
+
+#galerija {
+	position:relative;
+	left:700px;
+	font-size:60px;
+	font-family:impact;
+}
+
+/*okviri slika */
+
+
+.slike img {
+    width: 350px;
+}
+
+/* Okvir za opis slike */
+
+#opis {
+    padding: 15px;
+    text-align: center;
+	position:relative;
+}
+
+/*slike */
+
+.slike {
+    border:1px solid black;
+    float:left;
+    width:350px;
+	background:beige;
+	position:relative;
+	left:20px;
+}
+ 
+#slike2 {
+    border:1px solid black;
+    float:left;
+	background:beige;
+	position:relative;
+	left:40px;
+}
+
+#galerija2 {
+	height:276px;
+}
+
+#slike3 {
+	border:1px solid black;
+    float:left;
+	background:beige;
+	position:relative;
+	left:60px;
+}
+
+#galerija3 {
+	height:276px;
+}
+
+#slike4 {
+	border:1px solid black;
+    float:left;
+	background:beige;
+	position:relative;
+	left:80px;
+}
+
+#galerija4 {
+	height:276px;
+}
+
+#slike5 {
+	border:1px solid black;
+    float:left;
+	background:beige;
+	position:relative;
+	left:-1455px;
+	top:330px;
+}
+
+#galerija5 {
+	height:265px;
+}
+
+#slike6 {
+	border:1px solid black;
+    float:left;
+	background:beige;
+	position:relative;
+	left:390px;
+}
+
+#galerija6 {
+	height:275px;
+	width:320px;
+}
+
+#slike7 {
+	border:1px solid black;
+    float:left;
+	background:beige;
+	position:relative;
+	left:410px;
+}
+
+#galerija7 {
+	height:275px;
+}
+
+
+
+
+
+/* Zanimljivosti */
+
+.zanimljivosti {
+	border:5px solid black;
+    float:left;
+	background:beige;
+	position:relative;
+}
+
+.lista {
+	font-family: cursive;
+	font-size:20px;
+}
+
+
