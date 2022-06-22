@@ -1,2 +1,6 @@
-# HTML-i-CSS-project
-This is my website which i made using HTML and CSS
+# HTML and CSS-project
+
+Hello,
+
+This is a presentation of a web page which I developped using HTML and CSS.
+It containts 5 sub pages.
